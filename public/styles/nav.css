@@ -1,0 +1,31 @@
+nav {
+  position: fixed;
+  top: 0;
+  height: 120px;
+  width: 100vw;
+  z-index: 500;
+  background-color: #4056a1;
+  color: #ffffff;
+  padding: 1.5em;
+}
+
+nav button {
+  float: right;
+  border: none;
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+}
+
+nav button svg {
+  fill: red;
+  height: 20px;
+  widows: 20px;
+  margin-top: 8px;
+}
+
+nav span {
+  font-family: "Bungee", cursive;
+  position: relative;
+  top: 10px;
+}

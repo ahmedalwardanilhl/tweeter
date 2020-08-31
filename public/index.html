@@ -5,10 +5,21 @@
     <title>Tweeter - Home Page</title>
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      type="text/css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -21,7 +32,34 @@
     <!-- Top nav bar (fixed) -->
     <nav>
       <span>tweeter</span>
+      <button>
+        <div>
+          <strong><em>Write</em></strong> a new tweet
+        </div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="58.565"
+          height="75.83"
+          viewBox="0 0 58.565 75.83"
+        >
+          <path
+            d="M26.169,41.954,1.286,16.08a4.676,4.676,0,0,1,0-6.449l4.135-4.3a4.256,4.256,0,0,1,6.2,0l17.637,18.34L46.9,5.331a4.256,4.256,0,0,1,6.2,0l4.171,4.281a4.676,4.676,0,0,1,0,6.449L32.389,41.935A4.261,4.261,0,0,1,26.169,41.954Zm6.221,36.528L57.272,52.608a4.676,4.676,0,0,0,0-6.449l-4.135-4.3a4.256,4.256,0,0,0-6.2,0L29.279,60.18,11.642,41.84a4.256,4.256,0,0,0-6.2,0l-4.153,4.3a4.676,4.676,0,0,0,0,6.449L26.169,78.463A4.261,4.261,0,0,0,32.389,78.482Z"
+            transform="translate(0.004 -3.99)"
+          />
+        </svg>
+      </button>
     </nav>
+
+    <header>
+      <div class="avatar">
+        <img src="/images/profile-hex.png" />
+      </div>
+      <br />
+      <div class="username">
+        <h2>Ahmed <span>Alwardani</span></h2>
+      </div>
+    </header>
 
     <!-- Page-specific (main) content here -->
     <main class="container"></main>
