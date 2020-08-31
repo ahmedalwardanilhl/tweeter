@@ -26,3 +26,11 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+body main {
+  width: 90%;
+  background-color: inherit;
+  position: relative;
+  top: 520px;
+  margin: auto;
+}
